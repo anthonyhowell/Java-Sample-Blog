@@ -5,7 +5,8 @@ import post.*;
 /**
  * Created by anthonyhowell on 9/2/15.
  */
-public class ShortCodeParser implements PostBodyParser {
+public class ShortCodeBodyParser implements PostBodyParser {
+
 
     public void postBodyParser() {
 
