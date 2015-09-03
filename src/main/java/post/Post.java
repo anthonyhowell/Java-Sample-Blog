@@ -5,11 +5,13 @@ import category.*;
 import tag.*;
 import user.*;
 
+import javax.persistence.*;
 import java.util.*;
 
 /**
  * Created by anthonyhowell on 8/31/15.
  */
+@Entity
 public class Post {
 
     private Long id;

@@ -1,5 +1,7 @@
 package post;
 
+import javax.persistence.*;
+
 /**
  * Created by anthonyhowell on 8/31/15.
  *
@@ -7,6 +9,7 @@ package post;
  * post templates. When creating or editing a post, you would be
  * able to select one of these templates.
  */
+@Entity
 public class PostTemplate {
 
     private Long id;

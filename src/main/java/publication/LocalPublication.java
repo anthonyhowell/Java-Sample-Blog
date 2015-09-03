@@ -2,11 +2,13 @@ package publication;
 
 import post.*;
 
+import javax.persistence.*;
 import java.util.*;
 
 /**
  * Created by anthonyhowell on 9/1/15.
  */
+@DiscriminatorValue("local")
 public class LocalPublication extends Publication {
 
     private String miniTitle;
