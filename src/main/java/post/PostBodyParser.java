@@ -5,6 +5,6 @@ package post;
  */
 public interface PostBodyParser {
 
-    public String parse(String body);
+    public String parse(String content);
 
 }
