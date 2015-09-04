@@ -26,7 +26,9 @@ public class Post {
     private Set<Category> categories;
     private Set<Tag> tags;
 
+    @Embedded
     private PostStatus status;
+
     private PostStatistics statistics;
 
 
