@@ -10,5 +10,6 @@ public class ShortCode {
     private String code;
     private Set<Attribute> attributes;
     private String content;
+    private ShortCodeHandler handler;
 
 }
