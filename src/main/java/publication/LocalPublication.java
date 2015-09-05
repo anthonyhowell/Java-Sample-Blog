@@ -1,6 +1,6 @@
 package publication;
 
-import post.*;
+import template.*;
 
 import javax.persistence.*;
 import java.util.*;
@@ -17,6 +17,6 @@ public class LocalPublication extends Publication {
     // HTML <meta name="keywords" content="{KEYWORDS}" />
     private Set<String> keywords;
 
-    private PostTemplate template;
+    private Template template;
 
 }
