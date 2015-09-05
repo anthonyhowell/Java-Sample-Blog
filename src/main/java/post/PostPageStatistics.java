@@ -1,7 +1,7 @@
 package post;
 
 /**
- * Statistics or an individual page of copy.
+ * Statistics for an individual page of copy.
  *
  * Created by anthonyhowell on 9/5/15.
  */
