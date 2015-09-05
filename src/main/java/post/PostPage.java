@@ -14,7 +14,7 @@ import javax.persistence.*;
 public class PostPage {
 
     private Long id;
-    private String body;
+    private String content;
 
     private PostPageStatistics statistics;
 
