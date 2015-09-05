@@ -17,7 +17,7 @@ public class Post {
     private Long id;
     private Long version;
 
-    private Set<PostPage> pages;
+    private LinkedHashSet<PostPage> pages;
 
     private Set<Asset> relatedAssets;
 
